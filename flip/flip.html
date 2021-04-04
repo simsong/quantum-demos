@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+  <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.min.js'></script>
+  <link href='https://code.jquery.com/ui/1.12.1/themes/cupertino/jquery-ui.css' rel='stylesheet'>
+  <script src='flip.js'></script>
+  <link href='flip.css' rel='stylesheet'>
+</head>
+<body>
+    <h1>Entropy Simulation with Coin Flipping</h1>
+    <svg id="flipView" width="400" height="400" style="border:1px solid #000000;" cells_wide='6' cells_high='6'> </canvas>
+    <br/>
+    <button id='roll'>roll</button>
+    <button id='run'>run</button>
+    <button id='stop'>stop</button>
+    <div id='timeSlider' style='width:200px'> </div>
+    <table>
+        <tr><th>time</th><td><div id='time'></td></tr>
+        <tr><th>mode</th><td><div id='mode'></td></tr>
+    </table>
+</body>
+</html>
